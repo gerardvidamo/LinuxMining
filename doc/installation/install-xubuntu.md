@@ -8,6 +8,6 @@ $ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.
 ```
 Sudo without password 
 ```console
-$sudo visudo
+$ sudo visudo
 ```
 In the bottom of the file, type the follow: `$USER ALL=(ALL) NOPASSWD: ALL`
