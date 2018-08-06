@@ -3,21 +3,22 @@
 # Modify LinuxMining dir
 cd /usr/local/LinuxMining
 cd Clay*
-sudo mv * /usr/local/LinuxMining
+mv * /usr/local/LinuxMining
 cd ..
-sudo rm -r Clay*
-sudo chown root:root ethdcrminer64
-sudo chmod 755 ethdcrminer64
-sudo chmod u+s ethdcrminer64
-sudo chmod +x run.sh
+rm -r Clay*
+chown root:root ethdcrminer64
+chmod 755 ethdcrminer64
+chmod u+s ethdcrminer64
+chmod +x run.sh
 
 # auto-start script
-sudo apt install screen
+apt install screen
+cd /usr/local/LinuxMining/scripts
+chmod +x miner_launcher.sh
+chmod +x oc_settings.sh
 cd ~
 # replace rc.local file
-echo '' >>~/etc/rc.local
-
-sudo chmod +x miner_launcher.sh
+cp /usr/local/LinuxMining/scripts/rc.local /etc/
 
 # Add line into bashrc
 echo 'alias miner='screen -x ethm'' >>~/.bashrc
