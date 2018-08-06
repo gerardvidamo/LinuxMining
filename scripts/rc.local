@@ -11,5 +11,6 @@
 #
 # By default this script does nothing.
 
-/home/$USER/miner_launcher.sh 15 &
+/usr/local/LinuxMining/scripts/miner_launcher.sh 15 &
+/usr/local/LinuxMining/scripts/oc_settings.sh 15 &
 exit 0
