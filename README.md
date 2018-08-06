@@ -20,13 +20,13 @@ Install
 $ bash install.sh
 ```
 
-## Results
-```
-ETH - Total Speed: 159.470 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:01
-ETH: GPU0 31.902 Mh/s, GPU1 31.893 Mh/s, GPU2 31.896 Mh/s, GPU3 31.875 Mh/s, GPU4 31.904 Mh/s
+## Results GTX 1070
+```console
+ETH - Total Speed: 157.755 Mh/s, Total Shares: 9, Rejected: 0, Time: 00:02
+ETH: GPU0 31.574 Mh/s, GPU1 31.548 Mh/s, GPU2 31.535 Mh/s, GPU3 31.526 Mh/s, GPU4 31.572Mh/s
 ```
 
-```
+```console
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 390.77                 Driver Version: 390.77                    |
 |-------------------------------+----------------------+----------------------+
@@ -66,10 +66,24 @@ ETH: GPU0 31.902 Mh/s, GPU1 31.893 Mh/s, GPU2 31.896 Mh/s, GPU3 31.875 Mh/s, GPU
 +-----------------------------------------------------------------------------+
 ```
 
-## OC Settings 100W/GPU
+## OC Settings
+
+GTX 1070 (~30 MH/s Solo ETH):
 ```bash
-MemoryOffset="1400"
+MemoryOffset="1100"
+ClockOffset="-200"
+FanSpeed="80"
+```
+GTX 1060 (~21.5 MH/s Solo ETH):
+```bash
+MemoryOffset="1600"
+ClockOffset="-160"
+FanSpeed="80"
+```
+GTX 1050 Ti (~13.1 MH/s Solo ETH):
+```bash
+MemoryOffset="1300"
 ClockOffset="-100"
-FanSpeed="50"
+FanSpeed="80"
 ```
 
