@@ -1,15 +1,15 @@
 #!/bin/bash
-MemoryOffset="1600"
-ClockOffset="-200"
-FanSpeed="80"
+MemoryOffset="1400"
+ClockOffset="-100"
+FanSpeed="50"
 
-DISPLAY=:0
+export DISPLAY=:0
 xset -dpms
 xset s off
 xhost +
 
 ##Create xorg.conf with cool bits. 
-nvidia-xconfig -a --force-generate --allow-empty-initial-configuration --cool-bits=31 --no-sli --connected-monitor="DFP-0"
+nvidia-xconfig -a --allow-empty-initial-configuration --cool-bits=28 --use-display-device="DFP-0" --connected-monitor="DFP-0" --enable-all-gpus
 
 # Paths to the utilities we will need
 SMI='/usr/bin/nvidia-smi'
@@ -25,7 +25,7 @@ echo "Error: Current driver version is ${VER}. Driver version must be greater th
 fi
 
 $SMI -pm 1 # enable persistance mode
-$SMI -i 0,1,2,3,4 -pl 90
+$SMI -pl 100
 
 echo "Applying Settings"
 
