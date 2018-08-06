@@ -21,12 +21,12 @@ $ bash install.sh
 ```
 
 ## Results GTX 1070
-```console
+```
 ETH - Total Speed: 157.755 Mh/s, Total Shares: 9, Rejected: 0, Time: 00:02
 ETH: GPU0 31.574 Mh/s, GPU1 31.548 Mh/s, GPU2 31.535 Mh/s, GPU3 31.526 Mh/s, GPU4 31.572Mh/s
 ```
 
-```console
+```
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 390.77                 Driver Version: 390.77                    |
 |-------------------------------+----------------------+----------------------+
