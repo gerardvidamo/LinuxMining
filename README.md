@@ -12,7 +12,7 @@ $ sudo mkdir /usr/local/LinuxMining
 ```
 cd to  `/usr/local` then clone repository
 ```console
-cd /usr/local
+$ cd /usr/local
 $ git clone https://github.com/gerardvidamo/LinuxMining.git
 ```
 Install
