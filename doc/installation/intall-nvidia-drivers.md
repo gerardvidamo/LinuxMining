@@ -16,7 +16,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nogpumanager"
 ```
 Dont for forget to run this command
 ```console
-sudo update-grub
+$ sudo update-grub
 ```
 
 ### Enable Overclock
