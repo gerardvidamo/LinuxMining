@@ -1,7 +1,7 @@
 #!/bin/bash
-MemoryOffset="1400"
-ClockOffset="-100"
-FanSpeed="50"
+MemoryOffset="1100"
+ClockOffset="-200"
+FanSpeed="80"
 
 export DISPLAY=:0
 xset -dpms
