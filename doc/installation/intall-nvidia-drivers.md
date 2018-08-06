@@ -14,6 +14,10 @@ Adding nogpumanager to GRUB_CMDLINE_LINUX_DEFAULT in `/etc/default/grub` solves 
 ```bash
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nogpumanager"
 ```
+Dont for forget to run this command
+```console
+sudo update-grub
+```
 
 ### Enable Overclock
 ```console
