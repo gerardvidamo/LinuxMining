@@ -12,7 +12,7 @@ $ sudo mkdir /usr/local/LinuxMining
 ```
 cd to  `/usr/local` then clone repository
 ```console
-cd /usr/local
+$ cd /usr/local
 $ git clone https://github.com/gerardvidamo/LinuxMining.git
 ```
 Install
@@ -20,7 +20,28 @@ Install
 $ bash install.sh
 ```
 
-## Results GTX 1070
+### Overclock Settings
+
+GTX 1070 (~30 MH/s Solo ETH):
+```bash
+MemoryOffset="1100"
+ClockOffset="-200"
+FanSpeed="80"
+```
+GTX 1060 (~21.5 MH/s Solo ETH):
+```bash
+MemoryOffset="1600"
+ClockOffset="-160"
+FanSpeed="80"
+```
+GTX 1050 Ti (~13.1 MH/s Solo ETH):
+```bash
+MemoryOffset="1300"
+ClockOffset="-100"
+FanSpeed="80"
+```
+
+### Results using 5 EVGA GTX 1070
 ```
 ETH - Total Speed: 157.755 Mh/s, Total Shares: 9, Rejected: 0, Time: 00:02
 ETH: GPU0 31.574 Mh/s, GPU1 31.548 Mh/s, GPU2 31.535 Mh/s, GPU3 31.526 Mh/s, GPU4 31.572Mh/s
@@ -65,25 +86,3 @@ ETH: GPU0 31.574 Mh/s, GPU1 31.548 Mh/s, GPU2 31.535 Mh/s, GPU3 31.526 Mh/s, GPU
 |    4      1833      C   ./ethdcrminer64                             2855MiB |
 +-----------------------------------------------------------------------------+
 ```
-
-## OC Settings
-
-GTX 1070 (~30 MH/s Solo ETH):
-```bash
-MemoryOffset="1100"
-ClockOffset="-200"
-FanSpeed="80"
-```
-GTX 1060 (~21.5 MH/s Solo ETH):
-```bash
-MemoryOffset="1600"
-ClockOffset="-160"
-FanSpeed="80"
-```
-GTX 1050 Ti (~13.1 MH/s Solo ETH):
-```bash
-MemoryOffset="1300"
-ClockOffset="-100"
-FanSpeed="80"
-```
-
