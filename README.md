@@ -15,7 +15,8 @@ cd to  `/usr/local` then clone repository
 $ cd /usr/local
 $ git clone https://github.com/gerardvidamo/LinuxMining.git
 ```
-Install
+Installation
+> Note: Make sure to install all of the [prerequisites](https://github.com/gerardvidamo/LinuxMining/tree/master/doc) and update all of the packages before doing the installation.
 ```console
 $ bash install.sh
 ```
@@ -41,7 +42,7 @@ ClockOffset="-100"
 FanSpeed="80"
 ```
 
-### Results using 5 EVGA GTX 1070
+### Results using 5 EVGA GTX 1070 @ 100 Watts
 ```
 ETH - Total Speed: 157.755 Mh/s, Total Shares: 9, Rejected: 0, Time: 00:02
 ETH: GPU0 31.574 Mh/s, GPU1 31.548 Mh/s, GPU2 31.535 Mh/s, GPU3 31.526 Mh/s, GPU4 31.572Mh/s
