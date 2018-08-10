@@ -1,5 +1,5 @@
 # Linux Mining
-[![Claymore v11.0](https://img.shields.io/badge/clayrmore-v11.0-blue.svg)](https://drive.google.com/uc?id=1fWZ40uqEkFihDnf0kw8hYpobNRF1QCxc) [![Donate with Ethereum](https://en.cryptobadges.io/badge/micro/0xcff4f7cc9893d8e23ec020c3cdf6fa20499ccd3b)](https://en.cryptobadges.io/donate/0xcff4f7cc9893d8e23ec020c3cdf6fa20499ccd3b) [![Donate with Bitcoin](https://en.cryptobadges.io/badge/micro/1CvbjortS5ynSaBC7jVPC8aKVgFUY6N9Pg)](https://en.cryptobadges.io/donate/1CvbjortS5ynSaBC7jVPC8aKVgFUY6N9Pg)
+[![Claymore v11.0](https://img.shields.io/badge/claymore-v11.0-blue.svg)](https://drive.google.com/uc?id=1fWZ40uqEkFihDnf0kw8hYpobNRF1QCxc) [![Donate with Ethereum](https://en.cryptobadges.io/badge/micro/0xcff4f7cc9893d8e23ec020c3cdf6fa20499ccd3b)](https://en.cryptobadges.io/donate/0xcff4f7cc9893d8e23ec020c3cdf6fa20499ccd3b) [![Donate with Bitcoin](https://en.cryptobadges.io/badge/micro/1CvbjortS5ynSaBC7jVPC8aKVgFUY6N9Pg)](https://en.cryptobadges.io/donate/1CvbjortS5ynSaBC7jVPC8aKVgFUY6N9Pg)
 
 Based on my gist documentation [Ethereum mining](https://gist.github.com/gerardvidamo/a5682145df27957834381b03a0949291)
 
