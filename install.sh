@@ -17,8 +17,9 @@ cd /usr/local/LinuxMining/scripts
 chmod +x miner_launcher.sh
 chmod +x oc_settings.sh
 cd ~
+
 # replace rc.local file
 cp /usr/local/LinuxMining/scripts/rc.local /etc/
 
 # Add line into bashrc
-echo 'alias miner='screen -x ethm'' >>~/.bashrc
+echo 'alias miner='"'screen -x ethm'"'' >>~/.bashrc
