@@ -6,5 +6,5 @@ else
    DELAY=$1
 fi
 sleep $DELAY
-cd /usr/local/claymore11.0
-su $USER -c "screen -dmS ethm ./mine.sh"
+cd /usr/local/LinuxMiner
+su $USER -c "screen -dmS ethm ./run.sh"
