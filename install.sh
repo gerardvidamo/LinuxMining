@@ -2,10 +2,6 @@
 
 # Modify LinuxMining dir
 cd /usr/local/LinuxMining
-cd Clay*
-mv * /usr/local/LinuxMining
-cd ..
-rm -r Clay*
 chown root:root ethdcrminer64
 chmod 755 ethdcrminer64
 chmod u+s ethdcrminer64
