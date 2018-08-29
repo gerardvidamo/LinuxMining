@@ -11,6 +11,15 @@
 #
 # By default this script does nothing.
 
+# Add some error logging, you can disable it after when you are certain everything is working:
+exec 2> /tmp/rc.local.log
+exec 1>&2
+set -x
+
+# You must start the X Server for overclocking and fan control to work
+sudo X :0 &
+
+# Auto run scripts
 /usr/local/LinuxMining/scripts/miner_launcher.sh 15 &
 /usr/local/LinuxMining/scripts/oc_settings.sh 15 &
 exit 0
