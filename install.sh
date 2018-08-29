@@ -19,3 +19,4 @@ cp /usr/local/LinuxMining/scripts/rc.local /etc/
 
 # Add line into bashrc
 echo 'alias miner='"'screen -x ethm'"'' >>~/.bashrc
+echo 'alias runOC='"'bash /usr/local/LinuxMining/scripts/oc_settings.sh'"'' >>~/.bashrc
