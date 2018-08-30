@@ -6,5 +6,5 @@ else
    DELAY=$1
 fi
 sleep $DELAY
-cd /usr/local/LinuxMiner
+cd /usr/local/LinuxMining
 su $USER -c "screen -dmS ethm ./run.sh"
