@@ -15,6 +15,7 @@ $ sudo update-grub
 ```
 
 > Note: Make sure to modify this file once the overclock is done.
+
 Adding nogpumanager to GRUB_CMDLINE_LINUX_DEFAULT in `/etc/default/grub` solves the issue. Thus, the line in `/etc/default/grub` should look like: 
 
 ```bash
