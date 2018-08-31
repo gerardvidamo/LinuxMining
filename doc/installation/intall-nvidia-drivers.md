@@ -9,14 +9,16 @@ $ sudo apt update
 $ sudo apt install nvidia-390
 ```
 
-Adding nogpumanager to GRUB_CMDLINE_LINUX_DEFAULT in `/etc/default/grub` solves the issue. Thus, the line in `/etc/default/grub` should look like:
+Dont forget to run this command:
+```console
+$ sudo update-grub
+```
+
+> Note: Make sure to modify this file once the overclock is done.
+Adding nogpumanager to GRUB_CMDLINE_LINUX_DEFAULT in `/etc/default/grub` solves the issue. Thus, the line in `/etc/default/grub` should look like: 
 
 ```bash
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nogpumanager"
-```
-Dont forget to run this command
-```console
-$ sudo update-grub
 ```
 
 ### Enable Overclock
