@@ -1,22 +1,28 @@
 #!/bin/bash
 
-# Modify LinuxMining dir
+printf "Modifying Linux Mining files."
+# modify LinuxMining dir
 cd /usr/local/LinuxMining
-chown root:root ethdcrminer64
-chmod 755 ethdcrminer64
-chmod u+s ethdcrminer64
-chmod +x run.sh
+sudo chown root:root ethdcrminer64
+sudo chmod 755 ethdcrminer64
+sudo chmod u+s ethdcrminer64
+sudo chmod +x run.sh
 
+printf "Generating auto start scripts"
 # auto-start script
-apt install screen
+sudo apt install screen
 cd /usr/local/LinuxMining/scripts
-chmod +x miner_launcher.sh
-chmod +x oc_settings.sh
+sudo chmod +x miner_launcher.sh
+sudo chmod +x oc_settings.sh
 cd ~
 
+printf "Create fake display"
+# copy fake display
+sudo cp /usr/local/LinuxMining/X11dfp0.edid /etc/X11/dfp0.edid
 # replace rc.local file
-cp /usr/local/LinuxMining/scripts/rc.local /etc/
+sudo cp /usr/local/LinuxMining/scripts/rc.local /etc/
 
-# Add line into bashrc
+printf "Adding Linux Mining aliases"
+# add line into bashrc
 echo 'alias miner='"'screen -x ethm'"'' >>~/.bashrc
-echo 'alias runOC='"'bash /usr/local/LinuxMining/scripts/oc_settings.sh'"'' >>~/.bashrc
+echo 'alias runOC='"'sudo bash /usr/local/LinuxMining/scripts/oc_settings.sh'"'' >>~/.bashrc
