@@ -9,7 +9,7 @@ xset s off
 xhost +
 
 ##Create xorg.conf with cool bits. 
-nvidia-xconfig -a --allow-empty-initial-configuration --cool-bits=28 --use-display-device="DFP-0" --connected-monitor="DFP-0" --enable-all-gpus
+# nvidia-xconfig -a --allow-empty-initial-configuration --cool-bits=28 --use-display-device="DFP-0" --connected-monitor="DFP-0" --enable-all-gpus
 
 # Paths to the utilities we will need
 SMI='/usr/bin/nvidia-smi'
