@@ -13,6 +13,7 @@ $ sudo visudo
 In the bottom of the file, type the follow: `$USER ALL=(ALL) NOPASSWD: ALL`
 
 > Note: Run this command once your miner is installed and overclocking is done.
+
 Install package updates by typing (or copying & pasting via right-click into Putty) the following command:
 ```console
 $ sudo apt-get dist-upgrade
