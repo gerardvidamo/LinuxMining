@@ -1,5 +1,5 @@
 # Linux Mining
-[![Claymore v11.0](https://img.shields.io/badge/claymore-v11.0-blue.svg)](https://drive.google.com/uc?id=1fWZ40uqEkFihDnf0kw8hYpobNRF1QCxc) [![Donate with Ethereum](https://en.cryptobadges.io/badge/micro/0xcff4f7cc9893d8e23ec020c3cdf6fa20499ccd3b)](https://en.cryptobadges.io/donate/0xcff4f7cc9893d8e23ec020c3cdf6fa20499ccd3b) [![Donate with Bitcoin](https://en.cryptobadges.io/badge/micro/1CvbjortS5ynSaBC7jVPC8aKVgFUY6N9Pg)](https://en.cryptobadges.io/donate/1CvbjortS5ynSaBC7jVPC8aKVgFUY6N9Pg)
+[![ccminer git](https://img.shields.io/badge/ccminer-git-blue.svg)](https://github.com/MSFTserver/ccminer) [![Donate with Ethereum](https://en.cryptobadges.io/badge/micro/0xcff4f7cc9893d8e23ec020c3cdf6fa20499ccd3b)](https://en.cryptobadges.io/donate/0xcff4f7cc9893d8e23ec020c3cdf6fa20499ccd3b) [![Donate with Bitcoin](https://en.cryptobadges.io/badge/micro/1CvbjortS5ynSaBC7jVPC8aKVgFUY6N9Pg)](https://en.cryptobadges.io/donate/1CvbjortS5ynSaBC7jVPC8aKVgFUY6N9Pg)
 
 Based on my gist documentation [Ethereum mining](https://gist.github.com/gerardvidamo/a5682145df27957834381b03a0949291)
 
@@ -19,34 +19,7 @@ $ git clone https://github.com/gerardvidamo/LinuxMining.git
 Installation
 > Note: Make sure to install all of the [prerequisites](https://github.com/gerardvidamo/LinuxMining/tree/master/doc) and update all of the packages before doing the installation.
 ```console
-$ bash install.sh
-```
-
-### Overclock Settings
-
-GTX 1070 (~30 MH/s Solo ETH):
-```bash
-MemoryOffset="1100"
-ClockOffset="-200"
-FanSpeed="80"
-```
-GTX 1060 (~21.5 MH/s Solo ETH):
-```bash
-MemoryOffset="1600"
-ClockOffset="-160"
-FanSpeed="80"
-```
-GTX 1050 Ti (~13.1 MH/s Solo ETH):
-```bash
-MemoryOffset="1300"
-ClockOffset="-100"
-FanSpeed="80"
-```
-
-### Results using 5 EVGA GTX 1070 @ 100 Watts
-```
-ETH - Total Speed: 157.755 Mh/s, Total Shares: 9, Rejected: 0, Time: 00:02
-ETH: GPU0 31.574 Mh/s, GPU1 31.548 Mh/s, GPU2 31.535 Mh/s, GPU3 31.526 Mh/s, GPU4 31.572Mh/s
+$ bash setup.sh
 ```
 
 ```

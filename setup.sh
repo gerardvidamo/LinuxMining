@@ -4,8 +4,8 @@ printf "Modifying Linux Mining files."
 # modify LinuxMining dir
 cd /usr/local/LinuxMining
 sudo chown root:root ethdcrminer64
-sudo chmod 755 ethdcrminer64
-sudo chmod u+s ethdcrminer64
+sudo chmod 755 ccminer/ccminer
+sudo chmod u+s ccminer/ccminer
 sudo chmod +x run.sh
 
 printf "Generating auto start scripts"
