@@ -7,4 +7,4 @@ else
 fi
 sleep $DELAY
 cd /usr/local/LinuxMining
-su $USER -c "screen -dmS ethm ./run.sh"
+su gerard -c "screen -dmS ethm ./run.sh"
