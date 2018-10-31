@@ -2,10 +2,10 @@
 
 printf "Modifying Linux Mining files."
 # modify LinuxMining dir
-cd /usr/local/LinuxMining
-sudo chown root:root ethdcrminer64
-sudo chmod 755 ccminer/ccminer
-sudo chmod u+s ccminer/ccminer
+cd /usr/local/LinuxMining/
+sudo chown root:root z-enemy
+sudo chmod 755 z-enemy
+sudo chmod u+s z-enemy
 sudo chmod +x run.sh
 
 printf "Generating auto start scripts"
@@ -18,11 +18,11 @@ cd ~
 
 printf "Create fake display"
 # copy fake display
-sudo cp /usr/local/LinuxMining/X11dfp0.edid /etc/X11/dfp0.edid
+# sudo cp /usr/local/LinuxMining/X11dfp0.edid /etc/X11/dfp0.edid
 # replace rc.local file
 sudo cp /usr/local/LinuxMining/scripts/rc.local /etc/
 
 printf "Adding Linux Mining aliases"
 # add line into bashrc
-echo 'alias miner='"'screen -x ethm'"'' >>~/.bashrc
-echo 'alias runOC='"'sudo bash /usr/local/LinuxMining/scripts/oc_settings.sh'"'' >>~/.bashrc
+# echo 'alias miner='"'screen -x ethm'"'' >>~/.bashrc
+# echo 'alias runOC='"'sudo bash /usr/local/LinuxMining/scripts/oc_settings.sh'"'' >>~/.bashrc
