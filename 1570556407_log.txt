@@ -1,0 +1,120 @@
+11:40:07:755	dba54740	Check and remove old log files...
+11:40:07:755	dba54740	args: -epool us1-etc.ethermine.org:4444 -ewal 0x6e3833f0e7cf8c92fe217455a5d8a20b1bfedad1.m1 -epsw x 
+11:40:07:755	dba54740	
+11:40:07:755	dba54740	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+11:40:07:755	dba54740	บ                Claymore's Dual GPU Miner - v11.0               บ
+11:40:07:755	dba54740	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+11:40:07:755	dba54740	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+11:40:07:755	dba54740	
+11:40:07:755	dba54740	b501 
+11:40:07:955	dba54740	ETH: 1 pool is specified
+11:40:07:955	dba54740	Main Ethereum pool is us1-etc.ethermine.org:4444
+11:40:07:955	dba54740	DCR: 0 pool is specified
+11:40:08:094	dba54740	OpenCL platform: NVIDIA CUDA
+11:40:08:094	dba54740	AMD OpenCL platform not found 
+11:40:08:134	dba54740	CUDA initializing...
+
+11:40:08:134	dba54740	NVIDIA Cards available: 5 
+11:40:08:134	dba54740	CUDA Driver Version/Runtime Version: 9.1/8.0
+11:40:08:154	dba54740	GPU #0: GeForce GTX 1070, 8119 MB available, 15 compute units, capability: 6.1  (pci bus 1:0:0)
+
+11:40:08:155	dba54740	GPU #1: GeForce GTX 1070, 8119 MB available, 15 compute units, capability: 6.1  (pci bus 3:0:0)
+
+11:40:08:156	dba54740	GPU #2: GeForce GTX 1070, 8119 MB available, 15 compute units, capability: 6.1  (pci bus 6:0:0)
+
+11:40:08:157	dba54740	GPU #3: GeForce GTX 1070, 8119 MB available, 15 compute units, capability: 6.1  (pci bus 8:0:0)
+
+11:40:08:159	dba54740	GPU #4: GeForce GTX 1070, 8119 MB available, 15 compute units, capability: 6.1  (pci bus 10:0:0)
+
+11:40:08:159	dba54740	Total cards: 5 
+11:40:12:159	dba54740	No AMD cards in the list, ADL library will not be used.
+11:40:12:162	dba54740	NVML version: 9.390.116
+11:40:13:018	72ffd700	ETH: Stratum - connecting to 'us1-etc.ethermine.org' <172.65.245.119> port 4444
+11:40:13:051	72ffd700	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x6e3833f0e7cf8c92fe217455a5d8a20b1bfedad1.m1", "x"], "id": 2, "method": "eth_submitLogin"}
+
+11:40:13:051	72ffd700	ETH: Stratum - Connected (us1-etc.ethermine.org:4444)
+11:40:13:113	dba54740	No pool specified for Decred! Ethereum-only mining mode is enabled
+11:40:13:113	dba54740	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+11:40:13:113	dba54740	ETH: eth-proxy stratum mode
+11:40:13:113	dba54740	Watchdog enabled
+11:40:13:113	dba54740	Remote management (READ-ONLY MODE) is enabled on port 3333
+11:40:13:113	dba54740	
+11:40:13:173	72ffd700	got 39 bytes
+11:40:13:173	72ffd700	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+11:40:13:173	72ffd700	parse packet: 38
+11:40:13:173	72ffd700	ETH: Authorized
+11:40:13:173	72ffd700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+11:40:13:173	72ffd700	new buf size: 0
+11:40:13:253	72ffd700	got 254 bytes
+11:40:13:253	72ffd700	buf: {"id":0,"jsonrpc":"2.0","result":["0xa194acaca30f923e72d4004db12fb5f5d9823e6e1b37059cfb8185772db16d4f","0x5605f1feb945dc2af20b5a16a9e88b88e1c7874022e238fcc070f2f635358d75","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x887da7"]}
+
+11:40:13:253	72ffd700	parse packet: 253
+11:40:13:253	72ffd700	ETH: job changed
+11:40:13:253	72ffd700	new buf size: 0
+11:40:13:317	7f7fe700	Setting DAG epoch #298...
+11:40:17:170	7f7fe700	Setting DAG epoch #298 for GPU1
+11:40:17:170	7f7fe700	Create GPU buffer for GPU1
+11:40:17:170	73fff700	Setting DAG epoch #298 for GPU4
+11:40:17:170	73fff700	Create GPU buffer for GPU4
+11:40:17:170	7dffb700	Setting DAG epoch #298 for GPU2
+11:40:17:170	7dffb700	Create GPU buffer for GPU2
+11:40:17:170	7cff9700	Setting DAG epoch #298 for GPU3
+11:40:17:170	7cff9700	Create GPU buffer for GPU3
+11:40:17:170	7ffff700	Setting DAG epoch #298 for GPU0
+11:40:17:170	7ffff700	Create GPU buffer for GPU0
+11:40:17:180	7f7fe700	GPU 1, CUDA error 11 - cannot write buffer for DAG
+11:40:17:187	73fff700	GPU 4, CUDA error 11 - cannot write buffer for DAG
+11:40:17:187	7dffb700	GPU 2, CUDA error 11 - cannot write buffer for DAG
+11:40:17:188	7cff9700	GPU 3, CUDA error 11 - cannot write buffer for DAG
+11:40:17:188	7ffff700	GPU 0, CUDA error 11 - cannot write buffer for DAG
+11:40:20:180	7f7fe700	Set global fail flag, failed GPU1
+11:40:20:180	7f7fe700	GPU 1 failed
+11:40:20:180	7effd700	Setting DAG epoch #298 for GPU1
+11:40:20:180	7effd700	GPU 1, CUDA error 11 - cannot write buffer for DAG
+11:40:20:187	73fff700	Set global fail flag, failed GPU4
+11:40:20:187	73fff700	GPU 4 failed
+11:40:20:187	737fe700	Setting DAG epoch #298 for GPU4
+11:40:20:187	737fe700	GPU 4, CUDA error 11 - cannot write buffer for DAG
+11:40:20:187	7dffb700	Set global fail flag, failed GPU2
+11:40:20:187	7dffb700	GPU 2 failed
+11:40:20:187	7e7fc700	Setting DAG epoch #298 for GPU2
+11:40:20:187	7e7fc700	GPU 2, CUDA error 11 - cannot write buffer for DAG
+11:40:20:188	7cff9700	Set global fail flag, failed GPU3
+11:40:20:188	7cff9700	GPU 3 failed
+11:40:20:188	7d7fa700	Setting DAG epoch #298 for GPU3
+11:40:20:188	7d7fa700	GPU 3, CUDA error 11 - cannot write buffer for DAG
+11:40:20:188	7ffff700	Set global fail flag, failed GPU0
+11:40:20:188	7ffff700	GPU 0 failed
+11:40:20:189	8cbff700	Setting DAG epoch #298 for GPU0
+11:40:20:189	8cbff700	GPU 0, CUDA error 11 - cannot write buffer for DAG
+11:40:23:180	7effd700	Set global fail flag, failed GPU1
+11:40:23:180	7effd700	GPU 1 failed
+11:40:23:187	737fe700	Set global fail flag, failed GPU4
+11:40:23:187	737fe700	GPU 4 failed
+11:40:23:188	7e7fc700	Set global fail flag, failed GPU2
+11:40:23:188	7e7fc700	GPU 2 failed
+11:40:23:188	7d7fa700	Set global fail flag, failed GPU3
+11:40:23:188	7d7fa700	GPU 3 failed
+11:40:23:189	8cbff700	Set global fail flag, failed GPU0
+11:40:23:189	8cbff700	GPU 0 failed
+11:40:23:254	72ffd700	ETH: checking pool connection...
+11:40:23:254	72ffd700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+11:40:23:334	72ffd700	got 254 bytes
+11:40:23:334	72ffd700	buf: {"id":0,"jsonrpc":"2.0","result":["0xa194acaca30f923e72d4004db12fb5f5d9823e6e1b37059cfb8185772db16d4f","0x5605f1feb945dc2af20b5a16a9e88b88e1c7874022e238fcc070f2f635358d75","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x887da7"]}
+
+11:40:23:334	72ffd700	parse packet: 253
+11:40:23:334	72ffd700	ETH: job is the same
+11:40:23:334	72ffd700	new buf size: 0
+11:40:25:334	72ffd700	got 254 bytes
+11:40:25:334	72ffd700	buf: {"id":0,"jsonrpc":"2.0","result":["0x49d4ef0dc2fee9565bb93b8ae2b79a1f02fea91fe00439cd387455e52105acbc","0x5605f1feb945dc2af20b5a16a9e88b88e1c7874022e238fcc070f2f635358d75","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x887da8"]}
+
+11:40:25:334	72ffd700	parse packet: 253
+11:40:25:334	72ffd700	ETH: job changed
+11:40:25:334	72ffd700	new buf size: 0
+11:40:25:334	72ffd700	ETH: 10/08/19-11:40:25 - New job from us1-etc.ethermine.org:4444
+11:40:25:334	72ffd700	target: 0x0000000112e0be82 (diff: 4000MH), epoch 298(3.33GB)
+11:40:25:334	72ffd700	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+11:40:25:334	72ffd700	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s

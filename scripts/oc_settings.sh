@@ -1,7 +1,7 @@
 #!/bin/bash
-MemoryOffset="1100"
-ClockOffset="-200"
-FanSpeed="80"
+MemoryOffset="1350"
+ClockOffset="-50"
+FanSpeed="60"
 
 export DISPLAY=:0
 xset -dpms
@@ -25,7 +25,7 @@ echo "Error: Current driver version is ${VER}. Driver version must be greater th
 fi
 
 $SMI -pm 1 # enable persistance mode
-$SMI -pl 100
+$SMI -pl 120
 
 echo "Applying Settings"
 
