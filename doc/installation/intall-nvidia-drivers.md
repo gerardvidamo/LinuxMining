@@ -1,7 +1,7 @@
 
 ## Installing NVIDIA Drivers
 
-Install [NVIDIA Drivers](http://www.nvidia.com/Download/driverResults.aspx/123918/en-us)
+Install [NVIDIA Drivers](http://us.download.nvidia.com/XFree86/Linux-x86_64/390.87/NVIDIA-Linux-x86_64-390.87.run)
 ```console
 $ sudo apt purge nvidia-*
 $ sudo add-apt-repository ppa:graphics-drivers/ppa
